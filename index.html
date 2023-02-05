@@ -3,11 +3,44 @@
   <head>
     <title>Chrome App</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <h1>Clock</h1>
-    <script src="src/index.js"></script>
+    <div class="center">
+      <div class="card" style="height: 200px">
+        <h1 class="ele1">Clock</h1>
+        <form class="hidden eleform" id="loginForm">
+          <input id="idInput" placeholder="Enter your ID" />
+          <button id="loginButton">Login</button>
+        </form>
+        <h2 class="hidden elegreet">Hello User</h2>
+        <h3 class="elementcenter ele3">Hello User</h3>
+      </div>
+
+      <div style="height: 30px"></div>
+      <div class="card">
+        <h2>My To Do List</h2>
+        <ul id="todolist"></ul>
+        <form id="todolistForm">
+          <div>
+            <input type="text" id="addInput" />
+            <input
+              type="image"
+              id="addButton"
+              src=".\images\icons\add.png"
+              width="20px"
+              style="vertical-align: middle"
+            />
+          </div>
+        </form>
+      </div>
+
+      <script src="js/clock.js"></script>
+      <script src="js/background.js"></script>
+      <script src="js/login.js"></script>
+      <script src="js/todolist.js"></script>
+      <script src="js/weather.js"></script>
+    </div>
   </body>
 </html>

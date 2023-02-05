@@ -1,0 +1,59 @@
+.hidden {
+  display: none;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.ele1 {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 200px;
+
+  transform: translate(-30%, 0%);
+}
+.eleform {
+  position: absolute;
+  left: 50%;
+  top: 38%;
+
+  width: 230px;
+
+  transform: translate(-50%, 0%);
+}
+.elegreet {
+  position: absolute;
+  left: 50%;
+  top: 27%;
+
+  width: 450px;
+
+  transform: translate(-40%, 0%);
+}
+.ele3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 250px;
+
+  transform: translate(-40%, 0%);
+}
+
+/* Glassmorphism card effect */
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
